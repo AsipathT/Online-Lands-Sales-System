@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding-top: 80px; /* Increase padding for the body */
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.left {
+    width: 30%;
+    padding: 20px;
+}
+
+.left p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.methods {
+    margin-top: 20px;
+}
+
+.methods div {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.methods div:hover {
+    background-color: #f0f0f0;
+}
+
+.center {
+    width: 50%;
+    padding: 20px;
+}
+
+.card-details {
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+.right {
+    width: 20%;
+    padding: 20px;
+}
+
+.right p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .left,
+    .center,
+    .right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+body{
+	background-image: url("../images/back.jpeg");
+}
