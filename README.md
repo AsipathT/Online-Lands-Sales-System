@@ -11,6 +11,6 @@ Tech Stack
 PHP
 HTML/CSS
 MySQL (assumed for the database)
-JavaScript (if applicable)
+JavaScript 
 
 This project uses core web technologies to demonstrate basic CRUD operations, session handling, and user interface design.
