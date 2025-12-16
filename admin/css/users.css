@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .appname {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .loggedin a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .loggedin a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h1 span {
+    float: right;
+  }
+  
+  h1 span a {
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  h1 span a:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styles */
+  .masterlist {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .masterlist th, .masterlist td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .masterlist th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .masterlist tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .masterlist td:last-child a {
+    color: #f44336;
+    text-decoration: none;
+  }
+  
+  .masterlist td:last-child a:hover {
+    text-decoration: underline;
+  }
+
+ /* Edit Button */
+.btn-edit {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+  background-color: #45a049;
+}
+
+/* Delete Button */
+.btn-delete {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+
+
+
+
+/* Js css */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-buttons {
+  text-align: right;
+}
+
+#confirmDelete {
+  background-color: #f44336;
+  color: white;
+  padding: 12px 24px; 
+  font-size: 16px; 
+}
+
+#cancelDelete {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px; 
+  font-size: 16px; 
+}
+
+.logoutbutton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logoutbutton:hover {
+  background-color: #d32f2f;
+}
